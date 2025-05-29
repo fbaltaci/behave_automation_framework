@@ -1,11 +1,9 @@
 Feature: Login API functionality
 
-  Scenario Outline: Successfully create a new user
-    Given I have new user credentials "<username>" and "<password>"
+  Scenario: Successfully create a new user with valid credentials
+    Given I generate a unique test username and password
     When I send a POST request to create the user
-    Then the response status code should be 201 or 406
-
-    Examples:
-      | username         | password         |
-      | test_user_123    | TestUser_123!    |
-      | fb_test_user_456 | FbUser456$secure |
+    Then the response status code should be 201
+    When I send a POST request to generate a token for the user
+    Then the response status code should be 200 and contain a token
+    And the user should be retrievable by GET request
