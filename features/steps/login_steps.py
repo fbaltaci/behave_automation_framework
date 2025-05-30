@@ -1,7 +1,10 @@
 from behave import given, when, then
 
 from utils.api_helper import create_user, generate_token, retrieve_user
+from utils.logger import get_logger
 from utils.user_utils import generate_unique_credentials
+
+logger = get_logger(__name__)
 
 
 @given("I generate a unique test username and password")
