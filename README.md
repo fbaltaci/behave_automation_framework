@@ -7,7 +7,7 @@ ideal for portfolio demonstrations or scalable automation suites.
 
 ## Getting Started
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 behave_automation_framework/
@@ -16,6 +16,13 @@ behave_automation_framework/
 │   ├── steps/
 │   │   └── login_steps.py         # Step definitions for login
 │   └── environment.py             # Setup/teardown hooks
+|── logs/
+│   └── test_log_20240205_103000.log  # Log file~~~~
+|── reports/
+|   └── allure-report/
+|       ├── index.html
+|       └── ...
+|   └── allure-results/
 ├── utils/
 │   ├── api_helper.py              # API request helper functions
 │   ├── date_utils.py              # Timestamp generation
@@ -80,6 +87,56 @@ To run tagged scenarios:
 
 ```bash
 behave -t @login
+```
+
+## Allure Reporting Integration
+
+This framework supports Allure for advanced and interactive test reporting.
+
+### Install Allure CLI
+
+Allure must be installed separately from Python packages.
+
+#### On Windows (Recommended via Scoop):
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+irm get.scoop.sh | iex
+scoop install allure
+```
+
+Verify Installation
+
+```powershell
+allure --version
+```
+
+Alternatively, you can download [Allure](https://github.com/allure-framework/allure2/releases) manually and add it to
+your system PATH.
+
+### Generate Allure Results
+
+Run Behave tests with the Allure formatter:
+
+```bash
+behave -f allure_behave.formatter:AllureFormatter -o allure-results
+```
+
+### Generate and Open HTML Report
+
+```bash
+allure generate allure-results -o reports/allure-report --clean
+allure open reports/allure-report
+```
+
+This will open a browser window with a detailed test report.
+
+### Required Python Package
+
+Make sure allure-behave is installed:
+
+```bash
+pip install allure-behave
 ```
 
 ## Built With

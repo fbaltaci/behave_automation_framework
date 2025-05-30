@@ -1,0 +1,1201 @@
+2025-05-30 16:41:18 [INFO] builtins: Sending GET request to fetch all books
+2025-05-30 16:41:18 [INFO] utils.api_helper: Sending GET request to fetch all books
+2025-05-30 16:41:19 [DEBUG] utils.api_helper: Get all books response: 200 - {"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+2025-05-30 16:41:19 [DEBUG] builtins: Get all books response: 200 - {"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+2025-05-30 16:41:19 [INFO] builtins: Asserting response status code: expected 200, actual 200
+2025-05-30 16:41:19 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+2025-05-30 16:41:19 [DEBUG] builtins: Books received: [{'isbn': '9781449325862', 'title': 'Git Pocket Guide', 'subTitle': 'A Working Introduction', 'author': 'Richard E. Silverman', 'publish_date': '2020-06-04T08:48:39.000Z', 'publisher': "O'Reilly Media", 'pages': 234, 'description': 'This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp', 'website': 'http://chimera.labs.oreilly.com/books/1230000000561/index.html'}, {'isbn': '9781449331818', 'title': 'Learning JavaScript Design Patterns', 'subTitle': "A JavaScript and jQuery Developer's Guide", 'author': 'Addy Osmani', 'publish_date': '2020-06-04T09:11:40.000Z', 'publisher': "O'Reilly Media", 'pages': 254, 'description': "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da", 'website': 'http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/'}, {'isbn': '9781449337711', 'title': 'Designing Evolvable Web APIs with ASP.NET', 'subTitle': 'Harnessing the Power of the Web', 'author': 'Glenn Block et al.', 'publish_date': '2020-06-04T09:12:43.000Z', 'publisher': "O'Reilly Media", 'pages': 238, 'description': 'Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft', 'website': 'http://chimera.labs.oreilly.com/books/1234000001708/index.html'}, {'isbn': '9781449365035', 'title': 'Speaking JavaScript', 'subTitle': 'An In-Depth Guide for Programmers', 'author': 'Axel Rauschmayer', 'publish_date': '2014-02-01T00:00:00.000Z', 'publisher': "O'Reilly Media", 'pages': 460, 'description': 'Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o', 'website': 'http://speakingjs.com/'}, {'isbn': '9781491904244', 'title': "You Don't Know JS", 'subTitle': 'ES6 & Beyond', 'author': 'Kyle Simpson', 'publish_date': '2015-12-27T00:00:00.000Z', 'publisher': "O'Reilly Media", 'pages': 278, 'description': 'No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\"You Don’t Know JS\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st', 'website': 'https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond'}, {'isbn': '9781491950296', 'title': 'Programming JavaScript Applications', 'subTitle': 'Robust Web Architecture with Node, HTML5, and Modern JS Libraries', 'author': 'Eric Elliott', 'publish_date': '2014-07-01T00:00:00.000Z', 'publisher': "O'Reilly Media", 'pages': 254, 'description': "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex", 'website': 'http://chimera.labs.oreilly.com/books/1234000000262/index.html'}, {'isbn': '9781593275846', 'title': 'Eloquent JavaScript, Second Edition', 'subTitle': 'A Modern Introduction to Programming', 'author': 'Marijn Haverbeke', 'publish_date': '2014-12-14T00:00:00.000Z', 'publisher': 'No Starch Press', 'pages': 472, 'description': 'JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ', 'website': 'http://eloquentjavascript.net/'}, {'isbn': '9781593277574', 'title': 'Understanding ECMAScript 6', 'subTitle': 'The Definitive Guide for JavaScript Developers', 'author': 'Nicholas C. Zakas', 'publish_date': '2016-09-03T00:00:00.000Z', 'publisher': 'No Starch Press', 'pages': 352, 'description': 'ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E', 'website': 'https://leanpub.com/understandinges6/read'}]
+2025-05-30 16:41:19 [INFO] builtins: Fetching book by ISBN: 9781449325862
+2025-05-30 16:41:19 [INFO] utils.api_helper: Fetching book by ISBN: 9781449325862
+2025-05-30 16:41:19 [DEBUG] utils.api_helper: Get book response: 200 - {"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"}
+2025-05-30 16:41:19 [DEBUG] builtins: Get book response: 200 - {"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"}
+2025-05-30 16:41:19 [INFO] builtins: Asserting response status code: expected 200, actual 200
+2025-05-30 16:41:19 [DEBUG] builtins: Full response: {"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"}
+2025-05-30 16:41:19 [DEBUG] builtins: Expected title: Git Pocket Guide, Actual title: Git Pocket Guide
+2025-05-30 16:41:19 [INFO] builtins: Fetching book by ISBN: invalid-isbn-123
+2025-05-30 16:41:19 [INFO] utils.api_helper: Fetching book by ISBN: invalid-isbn-123
+2025-05-30 16:41:19 [DEBUG] utils.api_helper: Get book response: 400 - {"code":"1205","message":"ISBN supplied is not available in Books Collection!"}
+2025-05-30 16:41:19 [DEBUG] builtins: Get book response: 400 - {"code":"1205","message":"ISBN supplied is not available in Books Collection!"}
+2025-05-30 16:41:19 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:41:19 [DEBUG] builtins: Full response: {"code":"1205","message":"ISBN supplied is not available in Books Collection!"}
+2025-05-30 16:41:19 [INFO] utils.api_helper: Creating user with username: testuser_20250530164119
+2025-05-30 16:41:20 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"5ff0db5d-a289-4c2e-abde-109eaefa181d","username":"testuser_20250530164119","books":[]}
+2025-05-30 16:41:20 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:20 [DEBUG] builtins: Full response: {"userID":"5ff0db5d-a289-4c2e-abde-109eaefa181d","username":"testuser_20250530164119","books":[]}
+2025-05-30 16:41:21 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTE5IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4MH0.zcEgtwBt0le8roqqjfXgk5NV-0uob2fu597SWWQReWg","expires":"2025-06-06T20:41:20.586Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:21 [INFO] builtins: Adding book 9781449325862 to user 5ff0db5d-a289-4c2e-abde-109eaefa181d
+2025-05-30 16:41:21 [INFO] utils.api_helper: Adding book 9781449325862 to user 5ff0db5d-a289-4c2e-abde-109eaefa181d
+2025-05-30 16:41:21 [DEBUG] utils.api_helper: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:21 [DEBUG] builtins: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:21 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:21 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:21 [INFO] utils.api_helper: Creating user with username: testuser_20250530164121
+2025-05-30 16:41:21 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"dc81ba69-1de9-40a8-9f29-b041620412a7","username":"testuser_20250530164121","books":[]}
+2025-05-30 16:41:21 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:21 [DEBUG] builtins: Full response: {"userID":"dc81ba69-1de9-40a8-9f29-b041620412a7","username":"testuser_20250530164121","books":[]}
+2025-05-30 16:41:22 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTIxIiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4Mn0.8xJM2qfUnIfbPasI0YRaQW2j6AReQo79BvH0lQxbrlQ","expires":"2025-06-06T20:41:22.045Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:22 [INFO] builtins: Adding book invalid-isbn-123 to user dc81ba69-1de9-40a8-9f29-b041620412a7
+2025-05-30 16:41:22 [INFO] utils.api_helper: Adding book invalid-isbn-123 to user dc81ba69-1de9-40a8-9f29-b041620412a7
+2025-05-30 16:41:22 [DEBUG] utils.api_helper: Add book response: 400 - {"code":"1205","message":"ISBN supplied is not available in Books Collection!"}
+2025-05-30 16:41:22 [DEBUG] builtins: Add book response: 400 - {"code":"1205","message":"ISBN supplied is not available in Books Collection!"}
+2025-05-30 16:41:22 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:41:22 [DEBUG] builtins: Full response: {"code":"1205","message":"ISBN supplied is not available in Books Collection!"}
+2025-05-30 16:41:22 [INFO] utils.api_helper: Creating user with username: testuser_20250530164122
+2025-05-30 16:41:23 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"ff55bc95-ecec-44f9-becf-6dad274cc4aa","username":"testuser_20250530164122","books":[]}
+2025-05-30 16:41:23 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:23 [DEBUG] builtins: Full response: {"userID":"ff55bc95-ecec-44f9-becf-6dad274cc4aa","username":"testuser_20250530164122","books":[]}
+2025-05-30 16:41:23 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTIyIiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4M30.8GwOSq-iGE1mRKqCvMuN-AT5q8YVbbF3t_x0aWxT3HI","expires":"2025-06-06T20:41:23.454Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:23 [INFO] builtins: Adding book 9781449325862 to user ff55bc95-ecec-44f9-becf-6dad274cc4aa
+2025-05-30 16:41:23 [INFO] utils.api_helper: Adding book 9781449325862 to user ff55bc95-ecec-44f9-becf-6dad274cc4aa
+2025-05-30 16:41:24 [DEBUG] utils.api_helper: Add book response: 401 - {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:41:24 [DEBUG] builtins: Add book response: 401 - {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:41:24 [INFO] builtins: Asserting response status code: expected 401, actual 401
+2025-05-30 16:41:24 [DEBUG] builtins: Full response: {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:41:24 [INFO] utils.api_helper: Creating user with username: testuser_20250530164124
+2025-05-30 16:41:24 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"760cb255-e8a1-4191-bdd3-b4247b2ec426","username":"testuser_20250530164124","books":[]}
+2025-05-30 16:41:24 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:24 [DEBUG] builtins: Full response: {"userID":"760cb255-e8a1-4191-bdd3-b4247b2ec426","username":"testuser_20250530164124","books":[]}
+2025-05-30 16:41:25 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTI0IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4NH0.ULonVgUQAWouZdkFmWIwuqcziD18f4p-Gv1NzDyROVE","expires":"2025-06-06T20:41:24.886Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:25 [INFO] utils.api_helper: Adding book 9781449325862 to user 760cb255-e8a1-4191-bdd3-b4247b2ec426
+2025-05-30 16:41:25 [DEBUG] utils.api_helper: Add book response: 401 - {"code":"1207","message":"User Id not correct!"}
+2025-05-30 16:41:25 [INFO] builtins: Asserting response status code: expected 401, actual 401
+2025-05-30 16:41:25 [DEBUG] builtins: Full response: {"code":"1207","message":"User Id not correct!"}
+2025-05-30 16:41:25 [INFO] utils.api_helper: Creating user with username: testuser_20250530164125
+2025-05-30 16:41:25 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"71514722-16a0-42f1-aad0-f868783a71fc","username":"testuser_20250530164125","books":[]}
+2025-05-30 16:41:25 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:25 [DEBUG] builtins: Full response: {"userID":"71514722-16a0-42f1-aad0-f868783a71fc","username":"testuser_20250530164125","books":[]}
+2025-05-30 16:41:26 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTI1IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4NX0.ELiRFO15mQh_fC-voxR4QaCn_WMPQ6sOJbgCAouv0Q8","expires":"2025-06-06T20:41:25.958Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:26 [INFO] builtins: Adding book 9781449325862 to user 71514722-16a0-42f1-aad0-f868783a71fc
+2025-05-30 16:41:26 [INFO] utils.api_helper: Adding book 9781449325862 to user 71514722-16a0-42f1-aad0-f868783a71fc
+2025-05-30 16:41:27 [DEBUG] utils.api_helper: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:27 [DEBUG] builtins: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:27 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:27 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:27 [INFO] builtins: Replacing book 9781449325862 with 9781449331818 for user 71514722-16a0-42f1-aad0-f868783a71fc
+2025-05-30 16:41:27 [INFO] utils.api_helper: Replacing book 9781449325862 with 9781449331818 for user 71514722-16a0-42f1-aad0-f868783a71fc
+2025-05-30 16:41:27 [DEBUG] utils.api_helper: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:27 [DEBUG] builtins: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:27 [INFO] builtins: Asserting response status code: expected 200, actual 200
+2025-05-30 16:41:27 [DEBUG] builtins: Full response: 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:27 [INFO] utils.api_helper: Creating user with username: testuser_20250530164127
+2025-05-30 16:41:28 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"20757b37-9ed2-4dc2-9e41-6ba7899226e5","username":"testuser_20250530164127","books":[]}
+2025-05-30 16:41:28 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:28 [DEBUG] builtins: Full response: {"userID":"20757b37-9ed2-4dc2-9e41-6ba7899226e5","username":"testuser_20250530164127","books":[]}
+2025-05-30 16:41:28 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTI3IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4OH0.3Ao-DGDF441hrCH5H1SVuuP-7k5o7RPWvMpWBeEVhCY","expires":"2025-06-06T20:41:28.250Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:28 [INFO] builtins: Replacing book 9999999999999 with 9781449331818 for user 20757b37-9ed2-4dc2-9e41-6ba7899226e5
+2025-05-30 16:41:28 [INFO] utils.api_helper: Replacing book 9999999999999 with 9781449331818 for user 20757b37-9ed2-4dc2-9e41-6ba7899226e5
+2025-05-30 16:41:28 [DEBUG] utils.api_helper: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:28 [DEBUG] builtins: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:28 [INFO] builtins: Asserting response status code: expected 400, actual 200
+2025-05-30 16:41:28 [DEBUG] builtins: Full response: 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:28 [INFO] utils.api_helper: Creating user with username: testuser_20250530164128
+2025-05-30 16:41:29 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"51a9e9c0-7a4e-49a9-8228-07642969822b","username":"testuser_20250530164128","books":[]}
+2025-05-30 16:41:29 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:29 [DEBUG] builtins: Full response: {"userID":"51a9e9c0-7a4e-49a9-8228-07642969822b","username":"testuser_20250530164128","books":[]}
+2025-05-30 16:41:29 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTI4IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY4OX0.dkVfoWN783zKCC7TG55Z-H7dlffDxh4lASGE6jzk0zo","expires":"2025-06-06T20:41:29.481Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:29 [INFO] builtins: Adding book 9781449325862 to user 51a9e9c0-7a4e-49a9-8228-07642969822b
+2025-05-30 16:41:29 [INFO] utils.api_helper: Adding book 9781449325862 to user 51a9e9c0-7a4e-49a9-8228-07642969822b
+2025-05-30 16:41:30 [DEBUG] utils.api_helper: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:30 [DEBUG] builtins: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:30 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:30 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:30 [INFO] builtins: Replacing book 9781449325862 with 9781449331818 for user 51a9e9c0-7a4e-49a9-8228-07642969822b
+2025-05-30 16:41:30 [INFO] utils.api_helper: Replacing book 9781449325862 with 9781449331818 for user 51a9e9c0-7a4e-49a9-8228-07642969822b
+2025-05-30 16:41:30 [DEBUG] utils.api_helper: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:31 [DEBUG] builtins: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:31 [INFO] builtins: Asserting response status code: expected 401, actual 200
+2025-05-30 16:41:31 [DEBUG] builtins: Full response: 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:31 [INFO] utils.api_helper: Creating user with username: testuser_20250530164131
+2025-05-30 16:41:31 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"780090e0-f2e5-4912-aa0b-80c2e71efe4f","username":"testuser_20250530164131","books":[]}
+2025-05-30 16:41:31 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:31 [DEBUG] builtins: Full response: {"userID":"780090e0-f2e5-4912-aa0b-80c2e71efe4f","username":"testuser_20250530164131","books":[]}
+2025-05-30 16:41:32 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTMxIiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY5MX0.KwVJ-qlKm9v-NFjXbkgz_r_BAfwXnUD0ytXTsIMttbk","expires":"2025-06-06T20:41:31.757Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:32 [INFO] builtins: Adding book 9781449325862 to user 780090e0-f2e5-4912-aa0b-80c2e71efe4f
+2025-05-30 16:41:32 [INFO] utils.api_helper: Adding book 9781449325862 to user 780090e0-f2e5-4912-aa0b-80c2e71efe4f
+2025-05-30 16:41:32 [DEBUG] utils.api_helper: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:32 [DEBUG] builtins: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:32 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:32 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:32 [INFO] builtins: Replacing book 9781449325862 with invalid-isbn for user 780090e0-f2e5-4912-aa0b-80c2e71efe4f
+2025-05-30 16:41:32 [INFO] utils.api_helper: Replacing book 9781449325862 with invalid-isbn for user 780090e0-f2e5-4912-aa0b-80c2e71efe4f
+2025-05-30 16:41:33 [DEBUG] utils.api_helper: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:33 [DEBUG] builtins: Update book response: 200 - 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:33 [INFO] builtins: Asserting response status code: expected 400, actual 200
+2025-05-30 16:41:33 [DEBUG] builtins: Full response: 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<div id="swagger-ui"></div>
+
+<script src="./swagger-ui-bundle.js"> </script>
+<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="./swagger-ui-init.js"> </script>
+
+
+
+<style>
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+</style>
+</body>
+
+</html>
+
+2025-05-30 16:41:33 [INFO] utils.api_helper: Creating user with username: testuser_20250530164133
+2025-05-30 16:41:33 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"3eb3c0ca-9326-448b-82d3-c670a24fba0b","username":"testuser_20250530164133","books":[]}
+2025-05-30 16:41:33 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:33 [DEBUG] builtins: Full response: {"userID":"3eb3c0ca-9326-448b-82d3-c670a24fba0b","username":"testuser_20250530164133","books":[]}
+2025-05-30 16:41:34 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTMzIiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY5NH0.C_160wpFruVY5Bj0ST43K_7I03X_KIGc3Hzqs7Z7m3g","expires":"2025-06-06T20:41:34.089Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:34 [INFO] builtins: Adding book 9781449325862 to user 3eb3c0ca-9326-448b-82d3-c670a24fba0b
+2025-05-30 16:41:34 [INFO] utils.api_helper: Adding book 9781449325862 to user 3eb3c0ca-9326-448b-82d3-c670a24fba0b
+2025-05-30 16:41:35 [DEBUG] utils.api_helper: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:35 [DEBUG] builtins: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:35 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:35 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:35 [INFO] builtins: Deleting book 9781449325862 from user 3eb3c0ca-9326-448b-82d3-c670a24fba0b
+2025-05-30 16:41:35 [INFO] utils.api_helper: Deleting book 9781449325862 from user 3eb3c0ca-9326-448b-82d3-c670a24fba0b
+2025-05-30 16:41:35 [DEBUG] utils.api_helper: Delete book response: 204 - 
+2025-05-30 16:41:35 [DEBUG] builtins: Delete book response: 204 - 
+2025-05-30 16:41:35 [INFO] builtins: Asserting response status code: expected 204, actual 204
+2025-05-30 16:41:35 [DEBUG] builtins: Full response: 
+2025-05-30 16:41:35 [INFO] utils.api_helper: Creating user with username: testuser_20250530164135
+2025-05-30 16:41:36 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"2e67e2ff-52dd-4f45-99ba-ac6d899318de","username":"testuser_20250530164135","books":[]}
+2025-05-30 16:41:36 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:36 [DEBUG] builtins: Full response: {"userID":"2e67e2ff-52dd-4f45-99ba-ac6d899318de","username":"testuser_20250530164135","books":[]}
+2025-05-30 16:41:36 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTM1IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY5Nn0.fw_vO8_pRkdgI9roGznAGqMGJs-nqv2nB-45zLBY_uk","expires":"2025-06-06T20:41:36.421Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:36 [INFO] builtins: Deleting book 9999999999999 from user 2e67e2ff-52dd-4f45-99ba-ac6d899318de
+2025-05-30 16:41:36 [INFO] utils.api_helper: Deleting book 9999999999999 from user 2e67e2ff-52dd-4f45-99ba-ac6d899318de
+2025-05-30 16:41:37 [DEBUG] utils.api_helper: Delete book response: 400 - {"code":"1206","message":"ISBN supplied is not available in User's Collection!"}
+2025-05-30 16:41:37 [DEBUG] builtins: Delete book response: 400 - {"code":"1206","message":"ISBN supplied is not available in User's Collection!"}
+2025-05-30 16:41:37 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:41:37 [DEBUG] builtins: Full response: {"code":"1206","message":"ISBN supplied is not available in User's Collection!"}
+2025-05-30 16:41:37 [INFO] utils.api_helper: Creating user with username: testuser_20250530164137
+2025-05-30 16:41:38 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"69cd5c93-8a1c-4c4f-b9b4-6db5da72ca13","username":"testuser_20250530164137","books":[]}
+2025-05-30 16:41:38 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:38 [DEBUG] builtins: Full response: {"userID":"69cd5c93-8a1c-4c4f-b9b4-6db5da72ca13","username":"testuser_20250530164137","books":[]}
+2025-05-30 16:41:38 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTM3IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzY5OH0.fdF0wuMFB323Djh1h_Lv8AnGX6Ry6UeN3HjZLHqm1Uk","expires":"2025-06-06T20:41:38.590Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:38 [INFO] builtins: Adding book 9781449325862 to user 69cd5c93-8a1c-4c4f-b9b4-6db5da72ca13
+2025-05-30 16:41:38 [INFO] utils.api_helper: Adding book 9781449325862 to user 69cd5c93-8a1c-4c4f-b9b4-6db5da72ca13
+2025-05-30 16:41:39 [DEBUG] utils.api_helper: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:39 [DEBUG] builtins: Add book response: 201 - {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:39 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:39 [DEBUG] builtins: Full response: {"books":[{"isbn":"9781449325862"}]}
+2025-05-30 16:41:39 [INFO] builtins: Deleting book 9781449325862 from user 69cd5c93-8a1c-4c4f-b9b4-6db5da72ca13
+2025-05-30 16:41:39 [INFO] utils.api_helper: Deleting book 9781449325862 from user 69cd5c93-8a1c-4c4f-b9b4-6db5da72ca13
+2025-05-30 16:41:40 [DEBUG] utils.api_helper: Delete book response: 401 - {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:41:40 [DEBUG] builtins: Delete book response: 401 - {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:41:40 [INFO] builtins: Asserting response status code: expected 401, actual 401
+2025-05-30 16:41:40 [DEBUG] builtins: Full response: {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:41:40 [INFO] utils.api_helper: Creating user with username: testuser_20250530164140
+2025-05-30 16:41:40 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"1d064a40-c704-4700-afe0-3dc633137c7d","username":"testuser_20250530164140","books":[]}
+2025-05-30 16:41:40 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:41:40 [DEBUG] builtins: Full response: {"userID":"1d064a40-c704-4700-afe0-3dc633137c7d","username":"testuser_20250530164140","books":[]}
+2025-05-30 16:41:41 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MTQwIiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzcwMH0.sKx8pSI06hOwfKWz30dOjdIDye0dl93TmQgF5_KArOU","expires":"2025-06-06T20:41:40.784Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:41:41 [INFO] builtins: Deleting book 9781449325862 from user 1d064a40-c704-4700-afe0-3dc633137c7d
+2025-05-30 16:41:41 [INFO] utils.api_helper: Deleting book 9781449325862 from user 1d064a40-c704-4700-afe0-3dc633137c7d
+2025-05-30 16:43:41 [DEBUG] utils.api_helper: Delete book response: 504 - <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.17.10 (Ubuntu)</center>
+</body>
+</html>
+
+2025-05-30 16:43:41 [DEBUG] builtins: Delete book response: 504 - <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.17.10 (Ubuntu)</center>
+</body>
+</html>
+
+2025-05-30 16:43:41 [INFO] builtins: Asserting response status code: expected 400, actual 504
+2025-05-30 16:43:41 [DEBUG] builtins: Full response: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.17.10 (Ubuntu)</center>
+</body>
+</html>
+
+2025-05-30 16:43:41 [INFO] utils.api_helper: Creating user with username: testuser_20250530164341
+2025-05-30 16:43:42 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"c9d53cff-bb10-40ce-9580-059c8440f6ca","username":"testuser_20250530164341","books":[]}
+2025-05-30 16:43:42 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-05-30 16:43:42 [DEBUG] builtins: Full response: {"userID":"c9d53cff-bb10-40ce-9580-059c8440f6ca","username":"testuser_20250530164341","books":[]}
+2025-05-30 16:43:42 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNTMwMTY0MzQxIiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0ODYzNzgyMn0.y7NolBIWfOAwgyYei6ttxJ2dYufuwDslD7ew8DnzJGA","expires":"2025-06-06T20:43:42.590Z","status":"Success","result":"User authorized successfully."}
+2025-05-30 16:43:42 [INFO] utils.api_helper: Fetching user with ID: c9d53cff-bb10-40ce-9580-059c8440f6ca
+2025-05-30 16:43:43 [DEBUG] utils.api_helper: Retrieve user response: 200 - {"userId":"c9d53cff-bb10-40ce-9580-059c8440f6ca","username":"testuser_20250530164341","books":[]}
+2025-05-30 16:43:43 [INFO] utils.api_helper: Creating user with username: testuser_20250530164343
+2025-05-30 16:43:43 [DEBUG] utils.api_helper: User creation response: 400 - {"code":"1200","message":"UserName and Password required."}
+2025-05-30 16:43:43 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:43:43 [DEBUG] builtins: Full response: {"code":"1200","message":"UserName and Password required."}
+2025-05-30 16:43:43 [INFO] utils.api_helper: Creating user with username: testuser_20250530164343
+2025-05-30 16:43:44 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"68d3a1f6-5791-4dba-8169-6628731ef9cf","username":"testuser_20250530164343","books":[]}
+2025-05-30 16:43:45 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":null,"expires":null,"status":"Failed","result":"User authorization failed."}
+2025-05-30 16:43:45 [INFO] builtins: Asserting response status code: expected 200, actual 200
+2025-05-30 16:43:45 [DEBUG] builtins: Full response: {"token":null,"expires":null,"status":"Failed","result":"User authorization failed."}
+2025-05-30 16:43:45 [INFO] utils.api_helper: Creating user with username: testuser_20250530164345
+2025-05-30 16:43:45 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"38989b5a-26ad-4c7e-a9a1-56acedcb7b03","username":"testuser_20250530164345","books":[]}
+2025-05-30 16:43:45 [INFO] utils.api_helper: Fetching user with ID: 38989b5a-26ad-4c7e-a9a1-56acedcb7b03
+2025-05-30 16:43:46 [DEBUG] utils.api_helper: Retrieve user response: 401 - {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:43:46 [INFO] builtins: Asserting response status code: expected 401, actual 401
+2025-05-30 16:43:46 [DEBUG] builtins: Full response: {"code":"1200","message":"User not authorized!"}
+2025-05-30 16:43:46 [INFO] utils.api_helper: Creating user with username: testuser_20250530164346
+2025-05-30 16:43:46 [DEBUG] utils.api_helper: User creation response: 400 - {"code":"1300","message":"Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."}
+2025-05-30 16:43:46 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:43:46 [DEBUG] builtins: Full response: {"code":"1300","message":"Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."}
+2025-05-30 16:43:46 [INFO] utils.api_helper: Creating user with username: testuser_20250530164346
+2025-05-30 16:43:47 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"fe0a16eb-f288-4b77-8273-41ecde05d415","username":"testuser_20250530164346","books":[]}
+2025-05-30 16:43:47 [INFO] utils.api_helper: Creating user with username: testuser_20250530164346
+2025-05-30 16:43:47 [DEBUG] utils.api_helper: User creation response: 406 - {"code":"1204","message":"User exists!"}
+2025-05-30 16:43:47 [INFO] builtins: Asserting response status code: expected 406, actual 406
+2025-05-30 16:43:47 [DEBUG] builtins: Full response: {"code":"1204","message":"User exists!"}
+2025-05-30 16:43:47 [INFO] utils.api_helper: Creating user with username: testuser_20250530164347
+2025-05-30 16:43:47 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"c38d501b-7b87-4ab3-a63a-80cab9bee319","username":"testuser_20250530164347","books":[]}
+2025-05-30 16:43:48 [DEBUG] utils.api_helper: Token generation response: 400 - {"code":"1200","message":"UserName and Password required."}
+2025-05-30 16:43:48 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:43:48 [DEBUG] builtins: Full response: {"code":"1200","message":"UserName and Password required."}
+2025-05-30 16:43:48 [DEBUG] utils.api_helper: Token generation response: 400 - {"code":"1200","message":"UserName and Password required."}
+2025-05-30 16:43:48 [INFO] builtins: Asserting response status code: expected 400, actual 400
+2025-05-30 16:43:48 [DEBUG] builtins: Full response: {"code":"1200","message":"UserName and Password required."}
