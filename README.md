@@ -1,9 +1,7 @@
 # Behave API Automation Framework
 
 This is a Python-based API test automation framework using [Behave](https://behave.readthedocs.io/en/stable/), built for
-validating the [ToolsQA BookStore API](https://bookstore.toolsqa.com/).. It is designed with modularity and clarity in
-mind, and
-ideal for portfolio demonstrations or scalable automation suites.
+validating the [ToolsQA BookStore API](https://bookstore.toolsqa.com/).
 
 ## Getting Started
 
@@ -17,7 +15,7 @@ behave_automation_framework/
 │   │   └── login_steps.py         # Step definitions for login
 │   └── environment.py             # Setup/teardown hooks
 |── logs/
-│   └── test_log_20240205_103000.log  # Log file~~~~
+│   └── test_log_20240205_103000.log  # Log file
 |── reports/
 |   └── allure-report/
 |       ├── index.html
@@ -91,7 +89,7 @@ behave -t @login
 
 ## Allure Reporting Integration
 
-This framework supports Allure for advanced and interactive test reporting.
+This framework supports [Allure](https://allurereport.org/docs/) for advanced and interactive test reporting.
 
 ### Install Allure CLI
 
@@ -144,3 +142,6 @@ pip install allure-behave
 - [Behave](https://behave.readthedocs.io/en/stable/) - BDD testing framework
 - [Requests](https://docs.python-requests.org/en/latest/) - HTTP library
 - [Python-dotenv](https://github.com/theskumar/python-dotenv) - Environment variable loader
+- [Allure](https://allurereport.org/docs/) - Test reporting framework
+- [Allure Behave](https://github.com/allure-framework/allure-python/tree/master/allure-behave) - Allure integration for
+  Behave
