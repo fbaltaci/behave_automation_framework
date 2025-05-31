@@ -9,6 +9,7 @@ validating the [ToolsQA BookStore API](https://bookstore.toolsqa.com/).
 
 ```
 behave_automation_framework/
+├── allure-results/
 ├── features/
 │   ├── login.feature              # Login test scenarios (Gherkin)
 │   ├── steps/
@@ -20,7 +21,6 @@ behave_automation_framework/
 |   └── allure-report/
 |       ├── index.html
 |       └── ...
-|   └── allure-results/
 ├── utils/
 │   ├── api_helper.py              # API request helper functions
 │   ├── date_utils.py              # Timestamp generation
@@ -109,6 +109,14 @@ Verify Installation
 allure --version
 ```
 
+### Required Python Package
+
+Make sure allure-behave is installed:
+
+```bash
+pip install allure-behave
+```
+
 Alternatively, you can download [Allure](https://github.com/allure-framework/allure2/releases) manually and add it to
 your system PATH.
 
@@ -128,14 +136,6 @@ allure open reports/allure-report
 ```
 
 This will open a browser window with a detailed test report.
-
-### Required Python Package
-
-Make sure allure-behave is installed:
-
-```bash
-pip install allure-behave
-```
 
 ## Built With
 

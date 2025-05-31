@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":2,"items":[{"uid":"d2db40cb3614a12cf348eee0a1f38c9f","name":"Book Store API functionality","statistic":{"failed":4,"broken":0,"skipped":0,"passed":11,"unknown":0,"total":15}},{"uid":"307221c57e0103cca9069c4302b51c7b","name":"Login API functionality","statistic":{"failed":0,"broken":0,"skipped":0,"passed":8,"unknown":0,"total":8}}]}

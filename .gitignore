@@ -7,3 +7,7 @@ __pycache__/
 # IDE-specific files
 utils/__pycache__/`
 .idea/
+/allure-results
+/reports/allure-report
+/reports/allure-report
+/reports/allure-report
