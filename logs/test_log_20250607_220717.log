@@ -1,0 +1,32 @@
+2025-06-07 22:07:17 [INFO] utils.api_helper: Creating user with username: testuser_20250607220717
+2025-06-07 22:07:18 [DEBUG] utils.api_helper: User creation response: 201 - {"userID":"b7488335-da72-4b2b-adcc-c45015cafeee","username":"testuser_20250607220717","books":[]}
+2025-06-07 22:07:18 [INFO] builtins: Asserting response status code: expected 201, actual 201
+2025-06-07 22:07:18 [DEBUG] builtins: Full response: {"userID":"b7488335-da72-4b2b-adcc-c45015cafeee","username":"testuser_20250607220717","books":[]}
+2025-06-07 22:07:19 [DEBUG] utils.api_helper: Token generation response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzIwMjUwNjA3MjIwNzE3IiwicGFzc3dvcmQiOiJTdHJvbmdQYXNzMTIzISIsImlhdCI6MTc0OTM0ODQzOH0.4jd65-AYSWn0q3uug8rJDRI7_zaycjbvOp02yMkH8Ms","expires":"2025-06-15T02:07:18.959Z","status":"Success","result":"User authorized successfully."}
+2025-06-07 22:07:19 [INFO] builtins: Deleting book 9781449325862 from user b7488335-da72-4b2b-adcc-c45015cafeee
+2025-06-07 22:07:19 [INFO] utils.api_helper: Deleting book 9781449325862 from user b7488335-da72-4b2b-adcc-c45015cafeee
+2025-06-07 22:09:19 [DEBUG] utils.api_helper: Delete book response: 504 - <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.17.10 (Ubuntu)</center>
+</body>
+</html>
+
+2025-06-07 22:09:20 [DEBUG] builtins: Delete book response: 504 - <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.17.10 (Ubuntu)</center>
+</body>
+</html>
+
+2025-06-07 22:09:20 [INFO] builtins: Asserting response status code: expected 400, actual 504
+2025-06-07 22:09:20 [DEBUG] builtins: Full response: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.17.10 (Ubuntu)</center>
+</body>
+</html>
+
